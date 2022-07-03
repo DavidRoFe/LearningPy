@@ -8,12 +8,12 @@ class Wizard():
 
     def attack(self):
 
-        print(f'Attacking with the power of {self.power}')
         self.mana -= 10
+        return (f'Attacking with the power of {self.power}')
     
     def check_mana(self):
 
-        print(f'{self.mana} remaining')
+        return (f'{self.mana} remaining')
 
 class Archer():
 
@@ -24,12 +24,12 @@ class Archer():
     
     def attack(self):
 
-        print(f'Attacking with one arrow')
         self.arrows -= 1
+        return (f'Attacking with one arrow')
 
     def check_arrows(self):
 
-        print(f'{self.arrows} remaining')
+        return (f'{self.arrows} remaining')
 
 class Hybrid(Wizard, Archer):
 
@@ -52,8 +52,8 @@ class Hybrid(Wizard, Archer):
 
 player_00 = Hybrid('Pepe', 50, 100)
 
-player_00.attack(bow=True, magic=False)
-player_00.attack(bow=False, magic=True)
+print(player_00.attack(bow=True, magic=False))
+print(player_00.attack(bow=False, magic=True))
 
-player_00.check_mana()
-player_00.check_arrows()
+print(player_00.check_mana())
+print(player_00.check_arrows())
