@@ -8,4 +8,4 @@ user["age"] = input('What is your age? ')
 user["gender"] = input('What is your gender? ')
 
 print(
-    f'Hi {user["name"]}, your age is {user["age"]} y and you are {user["gender"]}')
+    f'Hi {user["name"]}, your age is {user["age"]} and you are {user["gender"]}')
