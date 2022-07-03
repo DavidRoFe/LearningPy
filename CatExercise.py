@@ -27,7 +27,7 @@ class Cat:
         return cls(words[randint(1, 9999)], randint(1, 100))
     # End random_cat()
 
-    staticmethod
+    @staticmethod
 
     def get_oldest(cat_list):
 
