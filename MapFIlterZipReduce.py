@@ -33,5 +33,5 @@ print(list(filter(is_over_50p, scores)))
 
 #4 Combine all of the numbers that are in a list on this file using reduce (my_numbers and scores). What is the total?
 
-total_00 = 0
-print(reduce(accumulator, scores, total_00))
+print(reduce(accumulator, scores, 0))
+print(reduce(accumulator, my_strings, 'Let\'s spell '))
