@@ -4,8 +4,6 @@ import urllib.request
 from random import randint
 
 # Class definition
-
-
 class Cat:
 
     word_site = 'https://www.mit.edu/~ecprice/wordlist.10000'
@@ -72,5 +70,4 @@ cat_list = Cat.create_cats(cats_no)
 
 cat_oldest = Cat.get_oldest(cat_list)
 
-print(
-    f'The oldest cat is {cat_oldest._age} years old and it\'s name is {cat_oldest._name}')
+print(f'The oldest cat is {cat_oldest._age} years old and it\'s name is {cat_oldest._name}')
