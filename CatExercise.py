@@ -72,5 +72,4 @@ cat_list = Cat.create_cats(cats_no)
 
 cat_oldest = Cat.get_oldest(cat_list)
 
-print(
-    f'The oldest cat is {cat_oldest._age} years old and it\'s name is {cat_oldest._name}')
+print(f'The oldest cat is {cat_oldest._age} years old and it\'s name is {cat_oldest._name}')
