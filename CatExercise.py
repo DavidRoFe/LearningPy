@@ -4,8 +4,6 @@ import urllib.request
 from random import randint
 
 # Class definition
-
-
 class Cat:
 
     word_site = 'https://www.mit.edu/~ecprice/wordlist.10000'
